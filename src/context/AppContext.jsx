@@ -73,7 +73,7 @@ export function AppProvider({ children }) {
     if (!model || govLoading) return
     setGovLoading(true)
     const map   = {}
-    const repos = model.allRepos.slice(0, 15)
+    const repos = pat? model.allRepos : model.allRepos.slice(0, 15)
 
     // Batches of 5 using Promise.allSettled
     for (let i = 0; i < repos.length; i += 5) {
