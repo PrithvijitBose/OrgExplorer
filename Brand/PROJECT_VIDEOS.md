@@ -78,6 +78,7 @@ Before opening any recording software or writing prompts, study the project thor
 
 1. Navigate to **[app.arcade.software](https://app.arcade.software/)** and create a free account.
    * **Workspace Access & Credits**: AOSSIE does not provide access to a paid Arcade workspace, so contributors use individual free accounts. Arcade provides **200 credits per month** on the free tier, with costs determined by video duration: a 30-second video costs **50 credits**, while a 60-second video costs **100 credits**. On a free plan, this allows generating roughly **two 60-second explainer videos** (or four 30-second teasers) per month. Importantly, **manual edits, prompt adjustments, and post-generation refinements within an existing video are free (0 extra credits)**, whereas regenerating from scratch starts a brand-new generation that consumes credits (50–100+ credits depending on duration).
+   
    * **H.264 MP4 Export & Watermark Policy**: Videos exported on the free tier include an Arcade watermark. Official AOSSIE project videos require a clean, watermark-free H.264 MP4. To remove the watermark before final submission:
      1. Export your completed video from Arcade.
      2. Visit [Online Video Cutter - Remove Watermark from Video](https://online-video-cutter.com/remove-logo).
@@ -86,6 +87,7 @@ Before opening any recording software or writing prompts, study the project thor
      5. Check the preview to ensure the underlying UI is clean, then export the watermark-free video.
 2. In your workspace settings, set up a **Brand Kit**:
    * Paste the link to the deployed application (e.g., `https://aossie-org.github.io/OrgExplorer/` or local demo).
+   * **Sanitize First**: Ensure the deployment or local demo is fully sanitized before scanning. Explicitly remove any active credentials, API keys, personal access tokens (such as GitHub PATs), or personal data from the environment and visible UI.
    * Arcade automatically scans the site to extract the project's color palette, typography, and logos.
 3. **Why this matters**: Grounding the tool in your actual brand kit prevents generic video styles and ensures visual continuity across AOSSIE projects.
 
