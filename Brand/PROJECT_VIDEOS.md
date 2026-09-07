@@ -77,7 +77,7 @@ Before opening any recording software or writing prompts, study the project thor
 ### Step 2 — Create an Arcade Workspace & Setup Brand Kit
 
 1. Navigate to **[app.arcade.software](https://app.arcade.software/)** and create a free account.
-   * **Workspace Access & Credits**: AOSSIE does not provide access to a paid Arcade workspace, so contributors use individual free accounts. Arcade gives you **200 credits per month** on a free tier, which means you can create roughly **4 videos a month** (50 credits for generating each video). Importantly, **editing and prompting an existing video does not cost any extra credits**, whereas generating a video from scratch takes an extra 50 credits each time.
+   * **Workspace Access & Credits**: AOSSIE does not provide access to a paid Arcade workspace, so contributors use individual free accounts. Arcade provides **200 credits per month** on the free tier, with costs determined by video duration: a 30-second video costs **50 credits**, while a 60-second video costs **100 credits**. On a free plan, this allows generating roughly **two 60-second explainer videos** (or four 30-second teasers) per month. Importantly, **manual edits, prompt adjustments, and post-generation refinements within an existing video are free (0 extra credits)**, whereas regenerating from scratch starts a brand-new generation that consumes credits (50–100+ credits depending on duration).
    * **H.264 MP4 Export & Watermark Policy**: Videos exported on the free tier include an Arcade watermark. Official AOSSIE project videos require a clean, watermark-free H.264 MP4. To remove the watermark before final submission:
      1. Export your completed video from Arcade.
      2. Visit [Online Video Cutter - Remove Watermark from Video](https://online-video-cutter.com/remove-logo).
@@ -168,7 +168,7 @@ Run through this quality check:
 
 ### Step 7 — Refine and Replace Generic Elements
 
-If the initial draft is 70–80% accurate, **do not scrap it** (editing and prompting an existing video costs **0 extra credits**, whereas regenerating from scratch consumes another 50 credits). Use targeted refinements:
+If the initial draft is 70–80% accurate, **do not scrap it or regenerate from scratch** (manual edits, prompt adjustments, and post-generation refinements within an existing video cost **0 extra credits**, whereas regenerating from scratch starts a new credit-consuming generation costing 50–100+ credits). Use targeted refinements:
 
 * **Replace Placeholders**: Wherever Arcade generated an abstract illustration or generic icon, swap it with a high-resolution screenshot or a recorded screen capture of the actual project in action.
 * **Trim Dead Air**: Cut out unnecessary pauses or overly verbose narration.
