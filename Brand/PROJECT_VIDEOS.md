@@ -77,7 +77,13 @@ Before opening any recording software or writing prompts, study the project thor
 ### Step 2 — Create an Arcade Workspace & Setup Brand Kit
 
 1. Navigate to **[app.arcade.software](https://app.arcade.software/)** and create a free account.
-   * **Note on Credits**: Arcade gives you **200 credits per month** on a free account, which means you can create roughly **4 videos a month** (50 credits for generating each video). Importantly, **editing and prompting an existing video does not cost any extra credits**, whereas generating a video from scratch takes an extra 50 credits each time.
+   * **Workspace Access & Credits**: AOSSIE does not provide access to a paid Arcade workspace, so contributors use individual free accounts. Arcade gives you **200 credits per month** on a free tier, which means you can create roughly **4 videos a month** (50 credits for generating each video). Importantly, **editing and prompting an existing video does not cost any extra credits**, whereas generating a video from scratch takes an extra 50 credits each time.
+   * **H.264 MP4 Export & Watermark Policy**: Videos exported on the free tier include an Arcade watermark. Official AOSSIE project videos require a clean, watermark-free H.264 MP4. To remove the watermark before final submission:
+     1. Export your completed video from Arcade.
+     2. Visit [Online Video Cutter - Remove Watermark from Video](https://online-video-cutter.com/remove-logo).
+     3. Choose and upload your video file.
+     4. Highlight the area where the watermark is placed.
+     5. Check the preview to ensure the underlying UI is clean, then export the watermark-free video.
 2. In your workspace settings, set up a **Brand Kit**:
    * Paste the link to the deployed application (e.g., `https://aossie-org.github.io/OrgExplorer/` or local demo).
    * Arcade automatically scans the site to extract the project's color palette, typography, and logos.
@@ -187,6 +193,7 @@ Before submitting your video to AOSSIE maintainers or embedding it in a pull req
 - [ ] **Visual Proof**: Real product UI or terminal output is visible for at least 60% of total runtime.
 - [ ] **Accuracy**: Every feature and metric shown corresponds to actual capabilities in the repository.
 - [ ] **AOSSIE Intro & Outro**: Contains the official AOSSIE intro bumper and closing call-to-action end card.
+- [ ] **Watermark-Free**: No third-party platform watermarks (removed prior to submission).
 - [ ] **Audio Quality**: Voiceover is clear and audible; background music is subtle and does not overpower narration.
 - [ ] **Subtitles**: Accurate, synchronized captions are included and easily readable.
 - [ ] **Legibility**: All text, buttons, and metrics shown on screen are readable on a 13-inch laptop display.
