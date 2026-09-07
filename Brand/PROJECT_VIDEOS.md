@@ -181,8 +181,11 @@ If the initial draft is 70–80% accurate, **do not scrap it or regenerate from 
 
 ### Step 8 — Add the AOSSIE Intro and Outro
 
-Every official AOSSIE project video must include the Aossie Intro and Outro video which will be provided
-by the mentors.
+Every official AOSSIE project video must include the official AOSSIE Intro and Outro video assets provided by the mentors:
+
+* **Intro (Bumper)**: Prepend the official 2–3 second animated AOSSIE intro bumper at the beginning of the video.
+* **Outro (Closing Card)**: Append the mentor-provided AOSSIE outro clip at the end. This provides the official community call-to-action (inviting viewers to star the repository and join Discord) and replaces any generic outro scene generated in Step 4.
+* **Duration Contract**: The **60–90-second recommendation and 120-second maximum cap apply to the final exported video** (inclusive of the intro and outro bumpers). Aim for a core walkthrough duration of roughly 50–75 seconds in Arcade so the final stitched video remains within budget.
 
 ---
 
@@ -191,7 +194,7 @@ by the mentors.
 Before submitting your video to AOSSIE maintainers or embedding it in a pull request, verify:
 
 - [ ] **Format**: Rendered in 16:9 aspect ratio at 1080p (`1920x1080`), 30 or 60 fps, H.264 MP4.
-- [ ] **Length**: Explainer is strictly between **60 and 90 seconds** (never exceeding 120s).
+- [ ] **Length**: Final exported video (including intro and outro) is strictly between **60 and 90 seconds** (never exceeding 120s).
 - [ ] **Visual Proof**: Real product UI or terminal output is visible for at least 60% of total runtime.
 - [ ] **Accuracy**: Every feature and metric shown corresponds to actual capabilities in the repository.
 - [ ] **AOSSIE Intro & Outro**: Contains the official AOSSIE intro bumper and closing call-to-action end card.
